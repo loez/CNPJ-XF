@@ -1,0 +1,11 @@
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\bin\Debug\netstandard2.0\Consulta_CNPJ.deps.json
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\bin\Debug\netstandard2.0\Consulta_CNPJ.dll
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\bin\Debug\netstandard2.0\Consulta_CNPJ.pdb
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\Consulta_CNPJ.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\Consulta_CNPJ.AssemblyInfoInputs.cache
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\Consulta_CNPJ.AssemblyInfo.cs
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\Consulta_CNPJ.dll
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ\obj\Debug\netstandard2.0\Consulta_CNPJ.pdb

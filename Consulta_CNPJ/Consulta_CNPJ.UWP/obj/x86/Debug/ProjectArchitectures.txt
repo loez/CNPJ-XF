@@ -1,0 +1,1 @@
+C:\Users\Luiz\source\repos\Consulta_CNPJ\Consulta_CNPJ\Consulta_CNPJ.UWP\Consulta_CNPJ.UWP.csproj;x86
