@@ -54,6 +54,9 @@
     <RootPropertyPathName Name="Cell" />
     <RootPropertyPathName Name="RenderHeight" />
     <RootPropertyPathName Name="View" />
+    <RootPropertyPathName Name="Tag" />
+    <RootPropertyPathName Name="ThumbImage" />
+    <RootPropertyPathName Name="Icon" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
@@ -89,6 +92,8 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="TabNavigation" />
+      <RootMethod Name="GetIsTemplateFocusTarget" />
+      <RootMethod Name="SetIsTemplateFocusTarget" />
     </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.FormsTextBox">
       <RootProperty Name="ForegroundFocusBrush" />
@@ -163,6 +168,8 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="Name" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
@@ -254,6 +261,7 @@
       <RootProperty Name="MinHeight" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
@@ -404,6 +412,7 @@
       <RootProperty Name="Fill" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CommandBarOverflowPresenter">
       <RootProperty Name="IsTabStop" />
@@ -440,6 +449,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Resources" />
@@ -514,6 +524,7 @@
     <RootType FullName="Xamarin.Forms.Platform.UWP.HorizontalTextAlignmentConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.KeyboardConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.MasterBackgroundConverter" />
+    <RootType FullName="Xamarin.Forms.Platform.UWP.FileImageSourcePathConverter" />
     <RootType FullName="System.Double" />
     <RootType FullName="Windows.UI.Xaml.Controls.Panel">
       <RootProperty Name="Background" />
@@ -531,6 +542,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.UIElement">
       <RootProperty Name="IsHoldingEnabled" />
+      <RootProperty Name="ManipulationMode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FlipViewItem" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.StepperControl" />
@@ -556,6 +568,11 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="Source" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter">
       <RootProperty Name="CheckBrush" />
@@ -598,10 +615,30 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.Resources" />
+    <RootType FullName="Xamarin.Forms.Platform.UWP.FormsSlider" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Thumb">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Tag" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.TickBar">
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Xamarin.Forms.Platform.UWP.FormsPivot" />
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
       <RootProperty Name="HeaderTemplate" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem" />
     <RootType FullName="Windows.UI.Xaml.Controls.Primitives.PivotPanel">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />

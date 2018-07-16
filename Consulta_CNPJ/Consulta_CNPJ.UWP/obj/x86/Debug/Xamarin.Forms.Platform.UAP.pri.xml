@@ -49,6 +49,11 @@
 						<Value>Xamarin.Forms.Platform.UAP\Resources.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="SliderStyle.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/SliderStyle.xbf">
+					<Candidate type="Path">
+						<Value>Xamarin.Forms.Platform.UAP\SliderStyle.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="TabbedPageStyle.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf">
 					<Candidate type="Path">
 						<Value>Xamarin.Forms.Platform.UAP\TabbedPageStyle.xbf</Value>

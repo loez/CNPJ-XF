@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>iPhone 6 de Luiz Player</SelectedDevice>
+    <SelectedDevice>iPhone 5s iOS 11.4</SelectedDevice>
     <TargetiOSDevice />
     <DeveloperId />
     <DevelopmentTeamId />
-    <DefaultDevice>iPhone X iOS 11.4</DefaultDevice>
+    <DefaultDevice>iPhone 5s iOS 11.4</DefaultDevice>
   </PropertyGroup>
 </Project>

@@ -4,16 +4,16 @@
              xmlns:local="clr-namespace:Consulta_CNPJ"
              x:Class="Consulta_CNPJ.MainPage">
     <ScrollView>
-    <StackLayout Spacing="10" Margin="20" x:Name="Principal">
+        <StackLayout Spacing="10" Margin="20" x:Name="Principal" Padding="20" BackgroundColor="#213A73">
         <!-- Place new controls here -->
-    	<Image Source="CNPJ.PNG" HorizontalOptions="Fill" />
+    	<Image Source="CNPJ.PNG" HorizontalOptions="CenterAndExpand" />
         
-        <Entry x:Name="txtcnpj" Placeholder="Digite o CNPJ sem formatação" PlaceholderColor="Black" HorizontalTextAlignment="Center" HorizontalOptions="Center" 
-                            Keyboard="Numeric" />
+        <Entry x:Name="txtcnpj" Placeholder="Digite o CNPJ sem formatação" PlaceholderColor="White" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" 
+                            Keyboard="Numeric" TextColor="White" BackgroundColor="Transparent" Completed="txtcnpj_Completed" />
 
-            <Button Text="Consultar" HorizontalOptions="Center" x:Name="BtnConsulta" Clicked="BtnConsulta_Clicked"/>
+            <Button Text="Consultar" HorizontalOptions="Center" x:Name="BtnConsulta" Clicked="BtnConsulta_Clicked" BackgroundColor="White" />
         
-        <Label x:Name ="Resultado" Text="Resultado: " IsVisible="False" FontAttributes="Bold" />
+        <Label x:Name ="Resultado" Text="Resultado: " IsVisible="False" FontAttributes="Bold" TextColor="White" />
     </StackLayout>
     </ScrollView>
 </ContentPage>
